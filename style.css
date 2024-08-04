@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 50vh;
+    height: 60vh;
+    background-color: white;
+    padding: 1.75rem;
+    border: 2px solid black ;
+    border-radius: 0.5rem;
+}
+.heading{
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.temp input{
+    margin-left: 10px;
+    padding: 10px;
+    width: auto;
+    border: none;
+    border-radius: 1rem;
+    border: 1px solid lightgrey;
+}
+.dropdown{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    min-width: 2rem;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-container select{
+    border: none;
+    margin-top: 15px;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    min-width: auto;
+    height: auto;
+}
+.msg{
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+.convert{
+    height: 3rem;
+    background-color: #006494;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 50%;
+    cursor: pointer;
+}
+.reset{
+    margin-top: 10px;
+    height: 3rem;
+    background-color: #822222;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 50%;
+    cursor: pointer;
+}
+.rights{
+    border-top: 2px solid lightgrey;
+    margin-top: 100px;
+}
+
